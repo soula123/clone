@@ -1,0 +1,71 @@
+*,::before,::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-s{
+  width: auto;
+  display: flex;
+  flex-wrap:wrap;
+  margin: auto;
+  box-sizing: border-box;
+  box-shadow: 2px 0 2px 2px;
+  width:1200px;
+}
+.Weather{
+  
+  margin:10px ;
+}
+.Weather img{
+  width: 90px;
+  height: 90px;
+}
+.Weather-mini{
+  display: inline-block;
+}
+.Weather-mini img{
+width: 100px;
+}
+
+.top-news {
+  width: 100%;
+  border-bottom: 1px solid #E0E0E0;
+  padding: 1em;
+
+}
+.title {
+  font-weight: 200;
+  font-size: 30px;
+  border-bottom: 1px solid #E0E0E0;
+  line-height: 1.5em;
+}
+.news-more {
+  float: right;
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+}
+.item a:hover, .item a:active {
+  text-decoration: underline;
+}
+
+.list-group-item a{
+    margin: 0;
+    padding: 0;
+    color: #6d6e70;
+    text-decoration: none;
+}
+.section2{
+  display: flex;
+}
+.top-news{
+  width:80%;
+}
+.table-col  {
+  font-weight: 500;
+  background-color: grey;
+}
+.table-striped{
+  width: 100%;
+}
